@@ -14,7 +14,7 @@ app.use(cors({
 
 // Configuración de Twilio
 const accountSid = 'AC2096c68c89101a7cbda4d22cf807f7d0';
-const authToken = 'd4ab1a640eb754398aa53338fc912b67';
+const authToken = 'de2932e0af1445cb3df931564a08f611';
 const client = new twilio(accountSid, authToken);
 
 // Ruta para enviar mensajes a WhatsApp
